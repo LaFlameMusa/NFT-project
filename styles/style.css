@@ -228,11 +228,17 @@ hr {
     margin: 0px 0px 20px 0px;
 }
 
+.services-types {
+    color: #fff;
+    font-size: 33px;
+    margin-bottom: 50px;
+}
+
 .service-description {
-    /* width: 100%; */
     color: #fff;
 }
 /* SERVICES SECTION END ============================================= */
+
 
 
 
