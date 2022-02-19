@@ -242,8 +242,59 @@ hr {
 
 
 
-
 /* ABOUT US SECTION ================================================== */
+
+.about-us-title {
+    color: #fff;
+    font-size: 70px;
+}
+
+.first-box {
+    color: #fff;
+    display: flex;
+    
+    min-height: 150px;
+}
+
+.second-box {
+    color: #fff;
+    display: flex;
+    min-height: 300px;
+}
+
+.column-article-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission-article {
+    padding: 20px;
+    min-width: 55%;
+    max-width: 60%;
+    border-radius: 2px;
+    border: 2px solid #b3a919;
+    background-color: #0000002c;
+}
+
+.vision-article {
+    border: 2px solid #b3a919;
+    background-color: #0000002c;
+    padding: 20px;
+    border-radius: 2px;
+    max-width: 45%;
+}
+
+.act-box {
+    padding: 20px;
+    border: 2px solid #b3a919;
+}
+
+.long-box-article {
+    
+    padding: 20px;
+    border: 2px solid #b3a919;
+}
 
 /* ABOUT US SECTION END ============================================== */
 
