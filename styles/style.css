@@ -306,17 +306,15 @@ hr {
 
 .footer {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     min-height: 200px;
     background-color: #000000a1;
 }
 
-.footer-content {
-    width: 1000px;
+.footer-nav {
+    width: 800px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .footer-column-title {
@@ -327,4 +325,28 @@ hr {
     list-style: none;
 }
 
+.footer-logo-name {
+    color: #d9fd0d;
+    font-size: 44px;
+}
+
 /* FOOTER END ========================================================= */
+
+
+
+
+/* media  =================================*/
+
+@media (max-width: 1200px) {
+    .nft-box {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    
+    .greet-section {
+        max-width: 100%;
+    }
+}
+
