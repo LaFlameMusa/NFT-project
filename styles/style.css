@@ -49,6 +49,9 @@ body {
 }
 
 .nav-links {
+    background-color: #000000c4;
+    border-radius: 10px;
+    padding: 5px 10px;
     font-size: 18px;
     font-weight: 500;
     margin-left: 60px;
@@ -158,7 +161,6 @@ body {
 .banner-title {
     background-color: transparent;
     color: #000000;
-    
     text-transform: uppercase;
     font-size: 55px;
     font-style: italic;
@@ -234,11 +236,15 @@ hr {
 
 /* ABOUT US SECTION ================================================== */
 
+.our-services {
+    margin-bottom: 60px;
+}
+
 .our-services-title {
     text-transform: uppercase;
     color: #fff;
     font-size: 70px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .first-box {
@@ -305,29 +311,62 @@ hr {
 /* FOOTER ============================================================== */
 
 .footer {
+    color: #fff;
+    padding: 50px;
+    background-color: #000000;
+}
+
+/* .footer-content {
     display: flex;
     align-items: center;
-    min-height: 200px;
-    background-color: #000000a1;
-}
+} */
 
-.footer-nav {
-    width: 800px;
+.row {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.footer-column-title {
-    color: #fff;
-}
-
-.footer-column {
+ul {
     list-style: none;
 }
 
-.footer-logo-name {
+.footer-col {
+    width: 16%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #d9fd0d;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
     color: #d9fd0d;
-    font-size: 44px;
+    font-size: 16px;
+    transition: 0.2s ease
+}
+
+.footer-col ul li a:hover {
+    padding-left: 5px;
 }
 
 /* FOOTER END ========================================================= */
@@ -336,6 +375,12 @@ hr {
 
 
 /* media  =================================*/
+@media(min-width: 1800px) {
+    .links {
+        font-size: 20px;
+    }
+}
+
 
 @media (max-width: 1200px) {
     .nft-box {
@@ -344,9 +389,17 @@ hr {
 }
 
 @media (max-width: 1000px) {
-    
+    .banner-title {
+        font-size: 35px;
+    }
+    .banner {
+        margin-bottom: 50px;
+    }
     .greet-section {
-        max-width: 100%;
+        max-width: 85%;
+    }
+    hr {
+        margin-bottom: 60px;
     }
 }
 
