@@ -238,6 +238,9 @@ hr {
 
 .our-services {
     margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .our-services-title {
@@ -259,7 +262,7 @@ hr {
 .second-box {
     color: #fff;
     display: flex;
-    min-height: 300px;
+    /* min-height: 300px; */
     gap: 20px;
     background-color: #00000050;
 }
@@ -274,7 +277,7 @@ hr {
 .mission-article {
     padding: 20px;
     min-width: 55%;
-    max-width: 60%;
+    width: 60%;
     border-radius: 2px;
     border: 2px solid #b3a919;
     background-color: #0000002c;
@@ -285,7 +288,7 @@ hr {
     background-color: #0000002c;
     padding: 20px;
     border-radius: 2px;
-    max-width: 45%;
+    width: 45%;
 }
 
 .act-box {
@@ -324,7 +327,7 @@ hr {
 .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 ul {
@@ -332,8 +335,9 @@ ul {
 }
 
 .footer-col {
-    width: 15%;
-    padding: 0 15px;
+    /* width: 0%; */
+    padding: 0 25px;
+    margin-bottom: 30px;
 }
 
 .footer-col h4 {
@@ -399,6 +403,7 @@ ul {
 
 @media (max-width: 940px) {
     .logo-name {
+        margin: 0 auto;
         font-size: 44px;
     }
     .nav-list {
@@ -428,6 +433,16 @@ ul {
         width: 200px;
         font-size: 25px;
     }
+    .mission-article {
+        width: 100%;
+    }
+    
+    .vision-article {
+        width: 100%;
+    }
+    .first-box {
+        flex-direction: column;
+    }
 }
 
 @media(max-width: 570px) {
@@ -438,4 +453,10 @@ ul {
     .our-services-title {
         font-size: 50px;
     }
+
+    
+    .second-box {
+        flex-direction: column;
+    }
+    
 }
