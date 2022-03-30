@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url('../img/main-background.jpg') repeat fixed 100%;
+    background: url('../img/main-background-min.webp') repeat fixed 100%;
 }
 
 .container {
@@ -453,7 +453,7 @@ ul {
 
 @media(max-width: 570px) {
     .bio {
-        font-size: 22px;
+        font-size: 35px;
     }
     .greeting-title {
         font-size: 40px;
@@ -492,7 +492,7 @@ ul {
         font-size: 33px;
     }
     .bio {
-        font-size: 20px;
+        font-size: 30px;
     }
     .logo-name {
         font-size: 40px;
